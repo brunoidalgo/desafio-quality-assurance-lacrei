@@ -21,3 +21,5 @@ https://paciente.lacreisaude.com.br/
 6. Propor melhorias;
 7. **Bônus:** Criação de teste automatizado em Cypress E2E
 
+## Link da documentação em Notion
+**https://brunoidalgo.notion.site/Desafio-Quality-Assurance-Lacrei-f70f02c0734b4817a3eccdba761d9499?pvs=4**
