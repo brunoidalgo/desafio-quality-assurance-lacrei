@@ -8,7 +8,7 @@
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Users">
-        <intProp name="ThreadGroup.num_threads">10</intProp>
+        <intProp name="ThreadGroup.num_threads">1000</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -29,7 +29,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Test-desempenho-100-Users-com-20-interações-cada" enabled="false">
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Test-desempenho-10-Users-com-1-interações-cada" enabled="false">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -66,7 +66,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Test-desempenho-10-Users-com-1-interações-cada">
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Test-desempenho-100-Users-com-10-interações-cada" enabled="false">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -103,7 +103,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Test-desempenho-1000-Users-com-20-interações-cada" enabled="false">
+        <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="Test-desempenho-1000-Users-com-20-interações-cada">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
