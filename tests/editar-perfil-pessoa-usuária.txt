@@ -1,0 +1,17 @@
+>>>CASO TESTE: EDIÇÃO DE PESSOA USUÁRIA
+
+Rotina: Login → Perfil → Editar Dados
+
+Funcionalidade: Edição de perfil
+
+
+1. Primeiramente usuário deve estar logado na conta que deseja alterar os dados
+
+Clicar na foto de perfil localizada ao lado do botão superior direito "Ajuda". Será redirecionado a página de edição: "https://paciente.lacreisaude.com.br/perfil/" dentro dessa página tem um botão: "Editar Dados"
+
+Ao clicar será exibida a mesma página de antes e na aba de "Informações pessoais", porém com a opção de alterar as informações como: Nome, Sobrenome, Data de Nascimento, Seu Pronome, Sua Etnia, Sua Identidade de Genêro, Sua Sexualidade e Suas Deficiências. Ao finalizar as edições deve clicar no botão de salvar. Em todas as opções são exibidas uma lista com apenas uma possível escolha.
+
+Botão de edição de foto é separado do botão de edição de dados pessoais.
+
+
+Também temos a aba de "Segurança" aonde é exibido o botão de editar dados, com opções como: Alterar senha, alterar e-mail e alterar telefone. Também são exibidos botões separados para edição de senha e de e-mail.

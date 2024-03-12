@@ -1,0 +1,175 @@
+>>>CASO TESTE: CADASTRO DE PESSOA USUÁRIA
+
+Rotina: Cadastro → Pós Cadastro → Buscar Profissional
+
+
+Funcionalidade Cadastro
+
+Tela de cadastro apresenta os campos:
+
+Disponível em: https://paciente.lacreisaude.com.br/cadastro/
+
+1. Nome cívil ou social
+2. Sobrenome
+3. E-mail
+4. Senha
+5. Confirme sua senha
+6. Check box: "Li e concordo com os termos de uso e política de privacidade"
+7. Check box: "Tenho 18 anos ou mais"
+
+
+
+Também apresenta informações como: 
+
+8. Requisitos de senha:
+
+	- A senha deve conter, no mínimo:
+
+	- 8 caracteres
+
+	- Letra maiúscula
+
+	- Letra minúscula
+
+	- Número
+
+	- Caractere especial
+	  (ex: #!*-_&)
+
+	- As senhas devem ser iguais
+
+Conforme os requisitos de senha são cumpridos o elemento muda de cinza para a cor verde com um confere ao lado esquerdo da escrita.
+
+
+9. Botão de Cadastro
+
+10. Botão de Voltar a página inicial de login
+
+11. Apresenta Logo da Lacrei Saúde com link para retornar a página principal do sistema.
+
+12. Botão de Ajuda que quando é clicado é redirecionado a página: https://lacreisaude.com.br/ajuda/ aonde apresenta as dúvidas frequentes e as respostas das mesmas.
+
+
+Após informar uma senha válida e demais campos passarem usuário é redirecionado a página de verificar-email:
+
+https://paciente.lacreisaude.com.br/verificar-email/?email=<email_user>
+
+Nessa tela é apresentada a mensagem: 
+
+1. "Para sua segurança,
+enviamos um link de verificação
+para o e-mail que você cadastrou."
+
+2. Também são apresentados avisos:
+
+-- O e-mail pode demorar alguns minutos para chegar.
+
+-- O link ficará ativo por 24 horas.
+
+3. Apresentado o botão de Voltar ao login
+
+4. Também da o usuário a opção de reenvia o e-mail caso o mesmo não tenha o recebido.
+
+-- Após o e-mail chegar usuário deve seguir o cadastro apartir do mesmo (Demorou cerca de 5 min pra chegar o e-mail.)
+
+Ao clicar no e-mail o usuário é direcionado a página de login novamente que vem com seu usuário e senha já preenchidos. 
+
+
+
+
+
+
+Funcionalidade: Pós Cadastro
+
+1. Sistema apresenta a mensagem: "Boas-vindas à Lacrei Saúde, continue o seu cadastro".
+
+2. Com um botão de Continuar Cadastro que redireciona o usuário para a tela de Pós Cadastro.
+
+Na tela de Pós Cadastro sistema apresenta a 1. etapa que tem o nome de: pronome
+
+Com a pergunta: "Com qual pronome você se identifica ?"
+
+Com quatro opções:
+
+1.a/Ela/Dela
+2.o/Ele/Dele
+3.e/Elu/Delu
+4.Outro
+
+
+Na 2. Etapa que tem o nome de: etnia
+
+Com a pergunta: "Com qual etnia você se identifica ?"
+ 
+1. Amarela
+2. Branca 
+3. Indígena
+4. Parda
+5. Preta
+6. Outra
+
+
+Na 3. Etapa que tem o nome de: Gênero
+
+Com a pergunta: "Qual é a sua identidade de gênero ?"
+
+1. Agênera
+2. Fluida
+3. Homem Cis
+4. Homem Trans
+5. Intersexo
+6. Mulher Cis
+7. Mulher Trans
+8. Não Binária
+9. Travesti
+10. Outra
+
+Na 4. Etapa que tem o nome de: Sexualidade
+
+Com a pergunta: "Qual é a sua sexualidade ?"
+
+1. Assexual
+2. Bissexual
+3. Demissexual
+4. Gay
+5. Heterossexual
+6. Pansexual
+7. Lésbica
+8. Outra
+
+
+Na 5. Etapa que tem o nome de: Deficiência
+
+Com a pergunta: "Você possui alguma deficiência ?"
+
+1. Não possuo deficiência
+2. Auditiva
+3. Cognitiva
+4. Motora
+5. Múltipla
+6. Visual
+7. Outra
+
+No final é apresentado o botão: Confirmar
+
+
+Assim que o usuário realiza o Pós Cadastro e clica no botão de confirmação é redirecionado a página: https://paciente.lacreisaude.com.br/pos-cadastro/cadastro-finalizado/
+
+Aonde o sistema apresenta a mensagem de sucesso: "Seu cadastro foi concluído!"
+
+é apresentada uma lista das opções escolhidas pelo usuário e um botão com a opção de editar dados.
+
+
+
+
+Funcionalidade: Buscar Profissional
+
+
+Assim que o usuário clica em Buscar Profissional e é redirecionado a página: https://paciente.lacreisaude.com.br/buscar-profissional/
+
+
+
+Sistema apresenta a mensagem: "Boas-vindas à Lacrei Saúde!"
+
+
+Sistema apresenta caixa de pesquisa aonde permite realizar buscas por: profissão, especialidade, localidade e também por sexualidade, identidade de gênero ou sexualidade.

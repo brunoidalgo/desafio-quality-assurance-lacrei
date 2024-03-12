@@ -1,0 +1,15 @@
+{
+  "name": "desafio-quality-assurance-lacrei",
+  "version": "1.0.0",
+  "description": "Test-automation-lacrei-saude",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "Bruno Empke",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}

@@ -1,0 +1,12 @@
+>>>CASO TESTE: FLUXO DE LOGIN
+
+
+É solicitado o e-mail e a senha do usuário, clicando no botão entrar.
+
+Ao entrar usuário é direcionado para a página de buscar profissional: https://paciente.lacreisaude.com.br/buscar-profissional/
+
+Aonde pode realizar a busca por qualquer profissinal por palavras chave.
+
+Pesquisando na caixa de pesquisa pelo profissional desejado é exibida uma lista dos mesmos. Podendo escolher entre qualquer um clicando em atendimentos. Clicando em atendimentos irá ser redirecionado a página de perfil do profissional, o sistema exibirá informações como:
+
+Genero, Etnia, Sexualidade, Informações gerais: (Sobre mim, Aceita Convênio, Experiência em) e os tipos de atendimentos: Consulta Presencial e Teleconsulta, além de também visualizar a descrição do cargo: "Psiquiatria, saúde mental, saúde LGBTQIAP+, saúde população negra, 210713"
